@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
             gameOver.SetActive(true);
             canvaPrincipal.SetActive(false);
             textScore.text = "SCORE: " + puntos.ToString();
-
+            Time.timeScale =0f;
             
             
         }
