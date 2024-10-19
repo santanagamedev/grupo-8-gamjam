@@ -705,6 +705,7 @@ GameObject:
   - component: {fileID: 1064495953}
   - component: {fileID: 1064495952}
   - component: {fileID: 1064495951}
+  - component: {fileID: 1064495954}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -825,6 +826,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064495949}
   m_CullTransparentMesh: 1
+--- !u!114 &1064495954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064495949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0707ab02ef46474b875ae95298c3b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  button: {fileID: 0}
+  overSound: {fileID: 8300000, guid: 419338d65aaf3d64c90a1c08c94627f5, type: 3}
+  selectSound: {fileID: 8300000, guid: 3341b15f75bc7a947a22818cf43b14b1, type: 3}
+  volume: 0.5
 --- !u!1 &1121095179
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +855,7 @@ GameObject:
   - component: {fileID: 1121095183}
   - component: {fileID: 1121095182}
   - component: {fileID: 1121095181}
+  - component: {fileID: 1121095184}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -958,6 +977,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121095179}
   m_CullTransparentMesh: 1
+--- !u!114 &1121095184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121095179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0707ab02ef46474b875ae95298c3b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  button: {fileID: 0}
+  overSound: {fileID: 8300000, guid: 419338d65aaf3d64c90a1c08c94627f5, type: 3}
+  selectSound: {fileID: 8300000, guid: 3341b15f75bc7a947a22818cf43b14b1, type: 3}
+  volume: 0.5
 --- !u!1 &1188456923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,6 +1232,7 @@ GameObject:
   - component: {fileID: 1435471119}
   - component: {fileID: 1435471118}
   - component: {fileID: 1435471117}
+  - component: {fileID: 1435471120}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -1317,6 +1354,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435471115}
   m_CullTransparentMesh: 1
+--- !u!114 &1435471120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435471115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0707ab02ef46474b875ae95298c3b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  button: {fileID: 0}
+  overSound: {fileID: 8300000, guid: 419338d65aaf3d64c90a1c08c94627f5, type: 3}
+  selectSound: {fileID: 8300000, guid: 3341b15f75bc7a947a22818cf43b14b1, type: 3}
+  volume: 0.5
 --- !u!1 &1488974550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,6 +1713,7 @@ GameObject:
   - component: {fileID: 1991584493}
   - component: {fileID: 1991584492}
   - component: {fileID: 1991584491}
+  - component: {fileID: 1991584494}
   m_Layer: 5
   m_Name: Control
   m_TagString: Untagged
@@ -1780,6 +1835,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991584489}
   m_CullTransparentMesh: 1
+--- !u!114 &1991584494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991584489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0707ab02ef46474b875ae95298c3b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  button: {fileID: 0}
+  overSound: {fileID: 8300000, guid: 419338d65aaf3d64c90a1c08c94627f5, type: 3}
+  selectSound: {fileID: 8300000, guid: 3341b15f75bc7a947a22818cf43b14b1, type: 3}
+  volume: 0.5
 --- !u!1 &2136096527
 GameObject:
   m_ObjectHideFlags: 0

@@ -1298,6 +1298,7 @@ GameObject:
   - component: {fileID: 1661300469417222824}
   - component: {fileID: 4902971090773601217}
   - component: {fileID: 7737974975608709322}
+  - component: {fileID: -8392880163495779581}
   - component: {fileID: 2363740380368567931}
   m_Layer: 0
   m_Name: (P) Characters_Zombie_Pacient_04
@@ -1398,6 +1399,25 @@ MonoBehaviour:
   attackRange: 2
   moveSpeed: 2
   attackCooldown: 10
+--- !u!114 &-8392880163495779581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5921367157248738129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69fc601b0106a304fa7143fc663a73ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  attackSound: []
+  reloadSound: []
+  takeDamageSound: []
+  deadSound:
+  - {fileID: 8300000, guid: df3ff7574c5560c419566452b5374818, type: 3}
+  - {fileID: 8300000, guid: f0e1b71c987d43a428969d435d0c44bd, type: 3}
 --- !u!65 &2363740380368567931
 BoxCollider:
   m_ObjectHideFlags: 0

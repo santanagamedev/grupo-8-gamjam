@@ -10,6 +10,8 @@ public class MenuPause : MonoBehaviour
     public GameObject botonPause;
     public GameObject menuPausa;
     public GameObject canvasGameOver;
+
+    [SerializeField] private AmbientSound ambientSound;
     private bool escPausa=false ;
 
     public  void Start() { 
@@ -34,12 +36,16 @@ public class MenuPause : MonoBehaviour
    public void Pausa ()
     {   escPausa=true;
         Time.timeScale =0f;
+        ambientSound.PauseGame();
         botonPause.SetActive(false);
         menuPausa.SetActive(true);
     }
 // metodo para reanudar juego y desactivar menu pausa   
     public void Reanudar ()
-    {   escPausa=false;
+    {   
+        escPausa=false;
+        ambientSound.ResumeGame();
+        Time.timeScale=1f;
         botonPause.SetActive(true);
         menuPausa.SetActive(false);
 

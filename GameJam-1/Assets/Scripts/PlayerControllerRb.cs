@@ -10,7 +10,7 @@ public class PlayerControllerRb : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        playerAnimator = GetComponentInChildren<Animator>();     
+        playerAnimator = GetComponentInChildren<Animator>();    
     }
     void Update()
     {

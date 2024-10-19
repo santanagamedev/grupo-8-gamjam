@@ -4,7 +4,8 @@ using UnityEngine.AI;
 
 public class ZombieController : MonoBehaviour
 {
-    public Transform player;  
+    public Transform player;
+    private EntitySound enemySound;  
     public float speed = 2.0f;
     NavMeshAgent agent;
 
@@ -12,6 +13,7 @@ public class ZombieController : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player").transform;
         agent = GetComponent<NavMeshAgent>();
+        enemySound = GetComponent<EntitySound>();
     }
 
     void Update()
@@ -21,5 +23,9 @@ public class ZombieController : MonoBehaviour
         {
             agent.SetDestination(player.position);
         }
+    }
+
+    private void OnDestroy() {
+        enemySound.PlayDeadSound(gameObject);
     }
 }
