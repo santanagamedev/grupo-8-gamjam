@@ -38,11 +38,13 @@ public class AmbientSound : ManagerSound
 
     public void PauseGame()
     {
+        StopAllCoroutines();
         StartCoroutine(IEPauseGame());
     }
 
     public void ResumeGame()
     {
+        StopAllCoroutines();
         StartCoroutine(IEResumeGame());
     }
 
