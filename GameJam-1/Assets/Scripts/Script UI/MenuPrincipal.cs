@@ -19,10 +19,10 @@ public class MenuPrincipal : MonoBehaviour
     }
 
     public void StartGame()
-    {   SceneManager.LoadScene("CanvasUI");
-        //SceneManager.LoadScene("Nivel-final");
+    {   
+        SceneManager.LoadScene("Nivel-final"); // carga la escena del juego 
     }
-    public void ControlesCanva  ()
+    public void ControlesCanva  ()// este metodo activa el canvas de controles
     {  
         controles.SetActive(true);
         menuInicio.SetActive(false);

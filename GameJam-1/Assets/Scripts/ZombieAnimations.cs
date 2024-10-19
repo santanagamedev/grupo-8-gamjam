@@ -15,12 +15,15 @@ public class Zombie : MonoBehaviour
     private PlayerOneController playerOneController; // Referencia al PlayerOneController
     private Transform player; // Referencia al transform del jugador
     private float lastAttackTime = 0f; // Tiempo desde el �ltimo ataque
-
+     private GameManager gameManager;// para acceder 
+    
     void Start()
     {
         animator = GetComponent<Animator>(); 
         player = GameObject.Find("Player").transform; 
         playerOneController = player.GetComponent<PlayerOneController>();
+        gameManager = FindObjectOfType<GameManager>();
+
     }
 
     void Update()
@@ -48,7 +51,8 @@ public class Zombie : MonoBehaviour
         if (playerOneController != null)
         {
             Debug.Log("Zombie is attacking.");
-            playerOneController.TakeDamage(attackDamage); 
+           // playerOneController.TakeDamage(attackDamage); 
+            gameManager.RestarVida(1);
             animator.SetTrigger("attack"); 
             lastAttackTime = Time.time; 
         }

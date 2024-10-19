@@ -9,10 +9,11 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI puntosText;  // Referencia al texto de puntos
     public Image barraDeVida;  // Referencia a la barra de vida
     public float vidaActual; // Vida actual del jugador
-    public float vidaMax = 100f; // Vida máxima del jugador
+    public float vidaMax = 1000f; // Vida máxima del jugador
     public float puntos; // Puntos del jugador
      public GameObject gameOver;
      public GameObject canvaPrincipal;
+     public TextMeshProUGUI textScore;
     void Start()
     {
         vidaActual = vidaMax; // Inicializa la vida actual
@@ -30,7 +31,7 @@ public class GameManager : MonoBehaviour
     // Método que actualiza el texto de los puntos
     private void ActualizarTexto()
     {
-        puntosText.text = "Puntos: " + puntos.ToString(); // Actualiza el texto en la UI
+        puntosText.text = "POINTS: " + puntos.ToString(); // Actualiza el texto en la UI
     }
 
     // Método que resta vida
@@ -40,9 +41,10 @@ public class GameManager : MonoBehaviour
         if (vidaActual <= 0)
         {
 
-            vidaActual = 0; // Asegúrate de que la vida no sea negativa
+            vidaActual = 0; // Asegura de que la vida no sea negativa
             gameOver.SetActive(true);
             canvaPrincipal.SetActive(false);
+            textScore.text = "SCORE: " + puntos.ToString();
             
         }
         ActualizarBarraVida(); // Actualiza la barra de vida
