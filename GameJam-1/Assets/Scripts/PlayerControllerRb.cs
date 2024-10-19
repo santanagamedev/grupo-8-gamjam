@@ -27,11 +27,11 @@ public class PlayerControllerRb : MonoBehaviour
         // Rota al player según la dirección en que se mueva
         if (moveVertical > 0)
         {
-            playerMesh.transform.localEulerAngles = new Vector3(0, 180, 0);
+            playerMesh.transform.localEulerAngles = new Vector3(0, 0, 0);
         }
         if (moveVertical < 0)
         {
-            playerMesh.transform.localEulerAngles = new Vector3(0, 0, 0);              
+            playerMesh.transform.localEulerAngles = new Vector3(0, 180, 0);              
         }
         if (moveHorizontal > 0)
         {

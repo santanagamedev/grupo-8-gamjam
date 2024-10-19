@@ -647,8 +647,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585864942}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.17883624, y: -0.7752468, z: 0.2516026, w: 0.5510953}
+  m_LocalPosition: {x: 12.157961, y: 6.5605254, z: 7.268545}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -765,10 +765,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 1.0878375
+  m_Height: 2.814888
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0.14678311, y: -0.20971322, z: -0.085027695}
 --- !u!23 &2050703105
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -828,7 +828,7 @@ Transform:
   m_GameObject: {fileID: 2050703102}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.33, y: 1.31, z: 15.81}
+  m_LocalPosition: {x: 6.83, y: 1.31, z: 5.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -846,6 +846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e4589b0d689ae641928df89b90f72cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -853,7 +854,7 @@ SceneRoots:
   - {fileID: 1585864945}
   - {fileID: 1197502409}
   - {fileID: 1109916613}
+  - {fileID: 188524160}
   - {fileID: 2050703107}
   - {fileID: 533455963}
-  - {fileID: 188524160}
   - {fileID: 1147149885}

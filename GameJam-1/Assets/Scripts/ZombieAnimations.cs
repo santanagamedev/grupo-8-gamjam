@@ -5,8 +5,8 @@ using UnityEngine;
 public class Zombie : MonoBehaviour
 {
     public int health = 100; // Puntos de vida del zombi
-    public int attackDamage = 8; // Daño que hace al jugador
-    public int damageTaken = 35; // Daño que recibe el zombi
+    public int attackDamage = 8; // Daï¿½o que hace al jugador
+    public int damageTaken = 35; // Daï¿½o que recibe el zombi
     public float attackRange = 2.0f; // Rango de ataque
     public float moveSpeed = 2.0f; // Velocidad de movimiento hacia el jugador
     public float attackCooldown = 1.5f; // Tiempo entre ataques
@@ -14,7 +14,7 @@ public class Zombie : MonoBehaviour
     private Animator animator; // Para las animaciones
     private PlayerOneController playerOneController; // Referencia al PlayerOneController
     private Transform player; // Referencia al transform del jugador
-    private float lastAttackTime = 0f; // Tiempo desde el último ataque
+    private float lastAttackTime = 0f; // Tiempo desde el ï¿½ltimo ataque
 
     void Start()
     {
