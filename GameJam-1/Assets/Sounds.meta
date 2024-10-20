@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:GameJam-1/Assets/Sounds.meta
 guid: 695faa23377cd3e48a4512f3dfbea689
 folderAsset: yes
+=======
+guid: 29683d114aece974096b2d07ec439049
+>>>>>>> Stashed changes:GameJam-1/Assets/Scenes/CanvasUI.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
