@@ -372,7 +372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controles: {fileID: 346025876}
-  menuInicio: {fileID: 0}
+  menuInicio: {fileID: 185677881}
 --- !u!1 &346025876
 GameObject:
   m_ObjectHideFlags: 0
@@ -2091,7 +2091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controles: {fileID: 346025876}
-  menuInicio: {fileID: 0}
+  menuInicio: {fileID: 185677881}
 --- !u!1 &1991584489
 GameObject:
   m_ObjectHideFlags: 0
