@@ -680,6 +680,11 @@ PrefabInstance:
       objectReference: {fileID: 856761120}
     - target: {fileID: 2952441406373588449, guid: feaf9b4370875574983c6da571bcdbff,
         type: 3}
+      propertyPath: ambientSound
+      value: 
+      objectReference: {fileID: 550278346}
+    - target: {fileID: 2952441406373588449, guid: feaf9b4370875574983c6da571bcdbff,
+        type: 3}
       propertyPath: canvaPrincipal
       value: 
       objectReference: {fileID: 283181365}
@@ -1110,6 +1115,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 668250240357341725, guid: 651e8544c89116c4e9068ced86b42415,
+        type: 3}
+      propertyPath: ambientSound
+      value: 
+      objectReference: {fileID: 550278346}
     - target: {fileID: 5635588770061029809, guid: 651e8544c89116c4e9068ced86b42415,
         type: 3}
       propertyPath: m_Name

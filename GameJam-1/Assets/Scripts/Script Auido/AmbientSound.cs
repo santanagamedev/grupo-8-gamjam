@@ -40,6 +40,7 @@ public class AmbientSound : ManagerSound
     {
         StopAllCoroutines();
         StartCoroutine(IEPauseGame());
+        Debug.Log("entro a pause");
     }
 
     public void ResumeGame()

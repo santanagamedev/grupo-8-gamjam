@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
      public GameObject gameOver;
      public GameObject canvaPrincipal;
      public TextMeshProUGUI textScore;
+   
     void Start()
     {
         vidaActual = vidaMax; // Inicializa la vida actual
@@ -46,7 +47,7 @@ public class GameManager : MonoBehaviour
             canvaPrincipal.SetActive(false);
             textScore.text = "SCORE: " + puntos.ToString();
             Time.timeScale =0f;
-            
+
             
         }
         ActualizarBarraVida(); // Actualiza la barra de vida
@@ -63,4 +64,5 @@ public class GameManager : MonoBehaviour
     {
         SumarPuntos(puntos); // Suma los puntos al Puntaje
     }
+    
 }
